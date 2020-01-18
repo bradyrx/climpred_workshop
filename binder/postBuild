@@ -1,0 +1,5 @@
+#!/bin/bash
+set -euo pipefail
+
+# Install Reveal theme
+python scripts/rise_json.py
