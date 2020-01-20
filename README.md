@@ -1,10 +1,19 @@
 # `climpred` Workshop
-Workshop on climpred for NCAR in January 2020
 
-# Setting up Python Environment
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bradyrx/climpred_workshop/master)
 
-This is a reminder to add a `.yml` file with all the appropriate packages. Folks on the NCAR JupyterHub will have the environment already installed.
+Workshop on climpred for NCAR in January 2020.
 
-# Useful Links
+# Install Python Environment
 
-Could potentially use the CMIP6 cloud for access to some of the DCPP output: https://console.cloud.google.com/storage/browser/cmip6/
+To install the proper pythong environment for this demo,
+run `conda env update -f environment.yml`.
+
+# How to Run Slides
+
+- Install `rise` via `pip install rise` (or use the conda environment).
+- Run `python scripts/rise_json.py` before running the notebooks for the first time
+  to install the proper reveal.js theme.
+- Open a `jupyter notebook` (this only works for notebooks and not jupyter lab).
+- Click the "Enter/Exit RISE Slideshow" button at the top of the nottebook.
+- Use `space` to move forward and `shift + space` to move backward.

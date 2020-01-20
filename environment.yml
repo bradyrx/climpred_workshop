@@ -1,0 +1,21 @@
+name: climpred-workshop
+channels:
+  - conda-forge
+dependencies:
+  - python=3.6
+  - jupyter
+  - netcdf4
+  - numpy
+  - xarray>=0.14.1
+  - bottleneck
+  - xskillscore>=0.0.12
+  - cartopy
+  - matplotlib
+  - nc-time-axis
+  - traitlets
+  - rise
+  - pip
+  - pip:
+      - proplot
+      # Install from master to get recent updates.
+      - git+https://github.com/bradyrx/climpred
