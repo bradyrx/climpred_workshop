@@ -13,9 +13,11 @@ dependencies:
   - matplotlib
   - nc-time-axis
   - traitlets
-  - rise
+  - zarr
+  - gcsfs
   - pip
   - pip:
       - proplot
       # Install from master to get recent updates.
       - git+https://github.com/bradyrx/climpred
+      - rise
