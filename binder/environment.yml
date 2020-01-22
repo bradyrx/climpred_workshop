@@ -15,9 +15,14 @@ dependencies:
   - traitlets
   - zarr
   - gcsfs
+  - esmpy<=7.1.0
+  - xesmf
+  - statsmodels
   - pip
   - pip:
       - proplot
       # Install from master to get recent updates.
       - git+https://github.com/bradyrx/climpred
+      - git+https://github.com/NCAR/pop-tools
       - rise
+
