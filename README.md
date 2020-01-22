@@ -1,19 +1,16 @@
 # `climpred` Workshop
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bradyrx/climpred_workshop/master)
+To view the slides and/or run the examples without access to Cheyenne: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bradyrx/climpred_workshop/master)
 
-Workshop on climpred for NCAR in January 2020.
+Workshop on ``climpred`` given at the National Center for Atmospheric Research on Wed. January 22nd, 2020.
+
+# Cheyenne/Casper Access
+
+1. Connect to the JupyterHub served by CISL via https://jupyterhub.ucar.edu
+2. Log in using your username and an active project code.
+3. Open a terminal, navigate to scratch or your work directory and run `git clone https://github.com/bradyrx/climpred_workshop.git`.
+4. Open an example notebook from the notebooks folder and click "Python 3" in the top corner and switch the python environment to `CMIP6 2019.10a`. This will have all the necessary packages installed for the workshop.
 
 # Install Python Environment
 
-To install the proper pythong environment for this demo,
-run `conda env update -f environment.yml`.
-
-# How to Run Slides
-
-- Install `rise` via `pip install rise` (or use the conda environment).
-- Run `python scripts/rise_json.py` before running the notebooks for the first time
-  to install the proper reveal.js theme.
-- Open a `jupyter notebook` (this only works for notebooks and not jupyter lab).
-- Click the "Enter/Exit RISE Slideshow" button at the top of the nottebook.
-- Use `space` to move forward and `shift + space` to move backward.
+If being done locally (not through binder or Cheyenne), run `conda env update -f binder/environment.yml` after cloning this repository to your workspace. All example data can be loaded through the cloud.
