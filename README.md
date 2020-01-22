@@ -9,7 +9,7 @@ Workshop on ``climpred`` given at the National Center for Atmospheric Research o
 1. Connect to the JupyterHub served by CISL via https://jupyterhub.ucar.edu
 2. Log in using your username and an active project code.
 3. Open a terminal, navigate to scratch or your work directory and run `git clone https://github.com/bradyrx/climpred_workshop.git`.
-4. Open an example notebook from the notebooks folder and click "Python 3" in the top corner and switch the python environment to `CMIP6 2019.10a`. This will have all the necessary packages installed for the workshop.
+4. Open an example notebook from the notebooks folder and click "Python 3" in the top corner and switch the python environment to `CMIP6 2019.10`. This will have all the necessary packages installed for the workshop.
 
 # Install Python Environment
 
