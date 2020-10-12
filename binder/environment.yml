@@ -2,27 +2,26 @@ name: climpred-workshop
 channels:
   - conda-forge
 dependencies:
-  - python=3.6
+  - xesmf
+  - esmpy
   - jupyter
   - netcdf4
   - numpy
-  - xarray>=0.14.1
+  - xarray
   - bottleneck
-  - xskillscore>=0.0.12
+  - xskillscore
   - cartopy
   - matplotlib
   - nc-time-axis
   - traitlets
   - zarr
   - gcsfs
-  - esmpy<=7.1.0
-  - xesmf
   - statsmodels
   - pip
   - pip:
       - proplot
       # Install from master to get recent updates.
-      - git+https://github.com/bradyrx/climpred
+      - git+https://github.com/bradyrx/climpred@master
       - git+https://github.com/NCAR/pop-tools
       - rise
 
